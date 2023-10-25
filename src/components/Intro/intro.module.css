@@ -1,0 +1,24 @@
+.intro {
+  margin: 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: white;
+  min-height: 50vh;
+}
+
+.intro > h4 {
+  font-weight: 600;
+}
+
+.introline {
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  width: 50%;
+  padding: 36px;
+}
+
+.para {
+  margin: 24px 0;
+  opacity: 50%;
+}

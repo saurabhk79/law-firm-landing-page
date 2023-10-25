@@ -19,11 +19,11 @@ const Hero = () => {
           Fight them Alone.
         </Typography>
 
-        <Typography className={styles.subtitle}>
+        <p className={styles.subtitle}>
           Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
           curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
           hac massa gravida arcu interdum proin curae.
-        </Typography>
+        </p>
         <HeroInput />
       </Box>
       <HeroImage />

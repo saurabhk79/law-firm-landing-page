@@ -20,12 +20,12 @@ export default function BasicAccordion() {
           <Typography>Do I need a personal injury report?</Typography>
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
-          <Typography>
+          <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequatduis enim velit mollit Exer. Amet minim
             mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
             officia consequatduis enim velit mollit Exer.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion className={styles.accordion}>
@@ -38,12 +38,12 @@ export default function BasicAccordion() {
           <Typography>How much is my case worth?</Typography>
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
-          <Typography>
+          <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequatduis enim velit mollit Exer. Amet minim
             mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
             officia consequatduis enim velit mollit Exer.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion className={styles.accordion}>
@@ -56,12 +56,12 @@ export default function BasicAccordion() {
           <Typography>What should I do right after car accidect</Typography>
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
-          <Typography>
+          <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequatduis enim velit mollit Exer. Amet minim
             mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
             officia consequatduis enim velit mollit Exer.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion className={styles.accordion}>
@@ -74,12 +74,12 @@ export default function BasicAccordion() {
           <Typography>How much is my case worth?</Typography>
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
-          <Typography>
+          <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequatduis enim velit mollit Exer. Amet minim
             mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
             officia consequatduis enim velit mollit Exer.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
     </div>

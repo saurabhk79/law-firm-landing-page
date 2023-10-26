@@ -7,19 +7,23 @@ import Practices from "./components/Practices";
 import Team from "./components/Team";
 import Faqs from "./components/Faqs";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="App">
+    <>
       <Navbar />
       <Hero />
-      <Intro />
-      <Reasons />
-      <Practices />
-      <Team />
-      <Faqs />
-      <Newsletter />
-    </div>
+      <div className="App">
+        <Intro />
+        <Reasons />
+        <Practices />
+        <Team />
+        <Faqs />
+        <Newsletter />
+      </div>
+      <Footer />
+    </>
   );
 };
 

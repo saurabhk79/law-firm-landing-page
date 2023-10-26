@@ -7,23 +7,26 @@ import Brand from "../Brand";
 
 const Navbar = () => {
   return (
-    <Stack
-      direction={"row"}
-      alignItems={"center"}
-      justifyContent={"space-between"}
-      height={90}
-    >
-      <Brand />
+    <div className={styles.wrapper}>
+      <Stack
+        direction={"row"}
+        alignItems={"center"}
+        justifyContent={"space-between"}
+        height={90}
+        className={styles.navbar}
+      >
+        <Brand />
 
-      <ul className={styles.menu}>
-        <li>Home</li>
-        <li>Attorneys</li>
-        <li>Practice Areas</li>
-        <li>About us</li>
-      </ul>
+        <ul className={styles.menu}>
+          <li>Home</li>
+          <li>Attorneys</li>
+          <li>Practice Areas</li>
+          <li>About us</li>
+        </ul>
 
-      <NavButton>Contact now</NavButton>
-    </Stack>
+        <NavButton>Contact now</NavButton>
+      </Stack>
+    </div>
   );
 };
 

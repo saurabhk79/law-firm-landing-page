@@ -1,0 +1,41 @@
+.footer {
+  background-color: #000;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 240px;
+  padding-top: 120px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  color: var(--color-white);
+
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.icons {
+  color: var(--color-white);
+
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.copyright {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}

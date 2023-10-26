@@ -28,6 +28,7 @@
 }
 
 .profile:hover {
+  color: black;
   background-color: var(--color-primary);
 }
 

@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Reasons from "./components/Reasons";
 import Practices from "./components/Practices";
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Intro />
       <Reasons />
       <Practices />
+      <Team />
     </div>
   );
 };

@@ -1,0 +1,36 @@
+.team {
+  margin-top: 180px;
+  color: white;
+}
+
+.team > h4 {
+  font-weight: 600;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.profileList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.profile {
+  height: 100px;
+  width: 300px;
+  border-radius: 14px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile:hover {
+  background-color: var(--color-primary);
+}
+
+.cases {
+  opacity: 50%;
+}

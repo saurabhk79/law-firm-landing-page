@@ -6,6 +6,7 @@ import Reasons from "./components/Reasons";
 import Practices from "./components/Practices";
 import Team from "./components/Team";
 import Faqs from "./components/Faqs";
+import Newsletter from "./components/Newsletter";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Practices />
       <Team />
       <Faqs />
+      <Newsletter />
     </div>
   );
 };

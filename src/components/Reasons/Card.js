@@ -1,4 +1,4 @@
-import { Typography, Chip } from "@mui/material";
+import { Typography } from "@mui/material";
 import React from "react";
 import styles from "./reasons.module.css";
 import icon from "../../assets/gifticon.svg";

@@ -8,6 +8,7 @@ import Team from "./components/Team";
 import Faqs from "./components/Faqs";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
+import Reviews from "./components/Reviews";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Intro />
         <Reasons />
         <Practices />
+        <Reviews />
         <Team />
         <Faqs />
         <Newsletter />
